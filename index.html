@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> My WebSite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
+      >
+        <a
+          href="mycar/index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="bmw.png"
+            class="h-8"
+            alt="Car Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Car WebSite</span
+          >
+        </a>
+        <div class="flex items-center space-x-6 rtl:space-x-reverse">
+          <span id="myevents_btn">
+         
+            <img
+              class="w-10 h-10 rounded-full"
+              style="display: none"
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww"
+              alt=""
+              id="user_img"
+            />
+          </a>
+          <a
+            href="/auth/login/index.html"
+            id="login_link"
+            class="text-sm text-blue-600 dark:text-blue-500 hover:underline"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container mx-auto p-4">
+      <h1 class="text-3xl font-bold mb-6 text-center"> Please Click My WebSite </h1>
+      <div
+        id="events_cards_container"
+        class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+      >
+      
+      </div>
+    </div>
+
+    <!-- <button id="logout_btn">Logout</button> -->
+    <script src="app.js" type="module"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </body>
+</html>
