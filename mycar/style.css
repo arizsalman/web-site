@@ -115,7 +115,8 @@ header.shadow #search_iocn{
 }
 .home{
     max-width: 1300px;
-    color: rgb(0, 10, 0);
+    /* color: rgb(0, 10, 0); */
+    color: aliceblue;
     margin: auto;
     width: 400%;
     min-height: 670px;
